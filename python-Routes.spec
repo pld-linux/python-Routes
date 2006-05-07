@@ -2,21 +2,23 @@ Summary:	Python package for  mapping URL's to dicts and vice versa
 Name:		python-Routes
 Version:	1.3.2
 Release:	1
-Group:		Development/Languages/Python
 License:	BSD (?)
+Group:		Development/Languages/Python
 Source0:	http://cheeseshop.python.org/packages/source/R/Routes/Routes-%{version}.tar.gz
 # Source0-md5:	967fe418f3afb8fb49d0be99d835b6bc
 URL:		http://wsgiarea.pocoo.org/colubrid/
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools >= 0.6-0.a11.1
+BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq  python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Routes is a Python re-implementation of the Rails routes system for mapping
-URL's to Controllers/Actions and generating URL's. Routes makes it easy to
-create pretty and concise URL's that are RESTful with little effort.
+Routes is a Python re-implementation of the Rails routes system for
+mapping URL's to Controllers/Actions and generating URL's. Routes
+makes it easy to create pretty and concise URL's that are RESTful with
+little effort.
 
 %prep
 %setup -q -n Routes-%{version}
@@ -31,7 +33,7 @@ python setup.py install \
 	--optimize=2 \
 	--root=$RPM_BUILD_ROOT
 
-find $RPM_BUILD_ROOT%{py_sitescriptdir} -name \*.py -exec rm -f \{\} \;
+%py_postclean
 
 %clean
 rm -rf $RPM_BUILD_ROOT

@@ -1,4 +1,5 @@
-Summary:	Python package for  mapping URL's to dicts and vice versa
+Summary:	Python package for mapping URLs to dicts and vice versa
+Summary(pl):	Pakiet Pythona do odwzorowywania URL-i na s³owniki i odwrotnie
 Name:		python-Routes
 Version:	1.3.2
 Release:	1
@@ -16,9 +17,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Routes is a Python re-implementation of the Rails routes system for
-mapping URL's to Controllers/Actions and generating URL's. Routes
-makes it easy to create pretty and concise URL's that are RESTful with
+mapping URLs to Controllers/Actions and generating URLs. Routes
+makes it easy to create pretty and concise URLs that are RESTful with
 little effort.
+
+%description -l pl
+Routes to pythonowa reimplementacja systemu przekierowañ Rails do
+odwzorowywania URL-i na kontrolery/akcje i generowania URL-i. Routes
+u³atwia tworzenie ³adnych i zwiêz³ych URL-i, spokojnych przy
+niewielkim wysi³ku.
 
 %prep
 %setup -q -n Routes-%{version}

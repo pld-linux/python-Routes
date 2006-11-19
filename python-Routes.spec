@@ -1,12 +1,12 @@
 Summary:	Python package for mapping URLs to dicts and vice versa
 Summary(pl):	Pakiet Pythona do odwzorowywania URL-i na s³owniki i odwrotnie
 Name:		python-Routes
-Version:	1.3.2
+Version:	1.5.2
 Release:	1
 License:	BSD (?)
 Group:		Development/Languages/Python
 Source0:	http://cheeseshop.python.org/packages/source/R/Routes/Routes-%{version}.tar.gz
-# Source0-md5:	967fe418f3afb8fb49d0be99d835b6bc
+# Source0-md5:	57ba126f9d63f0999fff13ff8cb9d41a
 URL:		http://wsgiarea.pocoo.org/colubrid/
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools >= 0.6-0.a11.1

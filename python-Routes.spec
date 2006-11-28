@@ -8,11 +8,11 @@ Group:		Development/Languages/Python
 Source0:	http://cheeseshop.python.org/packages/source/R/Routes/Routes-%{version}.tar.gz
 # Source0-md5:	57ba126f9d63f0999fff13ff8cb9d41a
 URL:		http://wsgiarea.pocoo.org/colubrid/
-BuildRequires:	python-devel
+BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-setuptools >= 0.6-0.a11.1
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
-%pyrequires_eq  python-modules
-Requires:   python >= 2.5
+%pyrequires_eq	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

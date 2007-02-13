@@ -1,5 +1,5 @@
 Summary:	Python package for mapping URLs to dicts and vice versa
-Summary(pl.UTF-8):   Pakiet Pythona do odwzorowywania URL-i na słowniki i odwrotnie
+Summary(pl.UTF-8):	Pakiet Pythona do odwzorowywania URL-i na słowniki i odwrotnie
 Name:		python-Routes
 Version:	1.5.2
 Release:	1

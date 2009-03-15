@@ -1,12 +1,12 @@
 Summary:	Python package for mapping URLs to dicts and vice versa
 Summary(pl.UTF-8):	Pakiet Pythona do odwzorowywania URL-i na słowniki i odwrotnie
 Name:		python-Routes
-Version:	1.10.1
+Version:	1.10.3
 Release:	0.1
 License:	BSD (?)
 Group:		Development/Languages/Python
 Source0:	http://cheeseshop.python.org/packages/source/R/Routes/Routes-%{version}.tar.gz
-# Source0-md5:	c54285a1642c644a915dabba8bf5480b
+# Source0-md5:	03e2d9f2f6a1b7f9e4cfc3a3866e513f
 URL:		http://routes.groovie.org/
 BuildRequires:	python-devel >= 1:2.4
 BuildRequires:	python-setuptools >= 0.6-0.a11.1

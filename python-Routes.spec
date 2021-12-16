@@ -9,11 +9,11 @@ Source0:	http://pypi.python.org/packages/source/R/Routes/Routes-%{version}.tar.g
 # Source0-md5:	d62bb225ba7919b5470095528932648b
 URL:		http://routes.groovie.org/
 BuildRequires:	python-devel >= 1:2.4
-BuildRequires:	python-setuptools >= 0.6-0.a11.1
+BuildRequires:	python-setuptools >= 1:0.6-0.a11.1
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.710
-%pyrequires_eq	python-modules
+BuildRequires:	rpmbuild(macros) >= 1.714
 Requires:	python-WebOb
+Requires:	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -5,7 +5,8 @@ Version:	2.2
 Release:	3
 License:	BSD (?)
 Group:		Development/Languages/Python
-Source0:	http://pypi.python.org/packages/source/R/Routes/Routes-%{version}.tar.gz
+#Source0Download: https://pypi.org/simple/routes/
+Source0:	https://files.pythonhosted.org/packages/source/R/Routes/Routes-%{version}.tar.gz
 # Source0-md5:	d62bb225ba7919b5470095528932648b
 URL:		http://routes.groovie.org/
 BuildRequires:	python-devel >= 1:2.4
